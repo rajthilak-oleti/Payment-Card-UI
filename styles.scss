@@ -1,0 +1,130 @@
+*{ 
+  box-sizing: border-box;
+}
+html body{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper{
+	width: 100%;
+  margin: 20px 0px;
+  .center-grid {
+    width: 450px;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    .center-inner-grid {
+      justify-content: center;
+    }
+  }
+  
+  .header-container {
+	  margin-bottom: 10px;
+    .success-icon {
+      margin-bottom: 5px;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: rgb(91, 91, 91);
+      margin-bottom: 2px;
+    }
+  }
+
+  .debit-card {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: 5px 0px 20px 0px;
+    padding: 10px 5px;
+    background-color: rgba(53,61,80,1);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 26px rgba(0.007843137718737125, 0.05098039284348488, 0.1411764770746231, 0.30000001192092896);
+    // background: linear-gradient(120deg, #000000 59%, #FFFFFF 100%, #000000 78%);
+    transition: all linear .4s;
+    // &:hover {
+      // transform: scale(1.1);
+      // box-shadow: none;
+    // }
+    .card-inner-grid {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      align-content: space-between;
+      .card-header {
+        .bank-details-container {
+          max-width: fit-content;
+        }
+        .value-container {
+          max-width: fit-content;
+          letter-spacing: 2px;
+        }
+        
+      }
+
+      .card-body {
+        .card-number {
+          letter-spacing: 5px;
+          text-align: left;
+        }
+      }
+
+      .card-footer {
+        text-align: left;
+        .validity-info-container {
+          max-width: min-content;
+          margin-right: 20px;
+        }
+        .cvc-container {
+          max-width: min-content;
+          margin-right: 20px;
+        }
+      }
+
+    }
+
+    .type-icon-container {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+    }
+  }
+
+  .main-btn-container {
+    margin: 10px 0px;
+    .main-btn {
+      width: 100%;
+    }
+  }
+
+  .details-container {
+    margin: 15px 0px;
+    .details-container-inner-grid {
+      
+      .details-grid {
+        padding: 12px 0px;
+        border-bottom: 1px solid rgb(209, 209, 209);
+        .inner-grid {
+          justify-content: space-between;
+          .key {
+            color: rgb(138, 138, 138);
+            max-width: fit-content;
+            font-size: 14px;
+          }
+          .value {
+            max-width: fit-content;
+            font-size: 14px;
+          }
+          .custom-link {
+            text-decoration: none;
+          }
+        }
+      }
+
+    }
+  }
+
+}

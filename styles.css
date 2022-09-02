@@ -1,0 +1,151 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.wrapper .center-grid {
+  width: 450px;
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper .center-grid .center-inner-grid {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .header-container {
+  margin-bottom: 10px;
+}
+
+.wrapper .header-container .success-icon {
+  margin-bottom: 5px;
+}
+
+.wrapper .header-container .subtitle {
+  font-size: 13px;
+  color: #5b5b5b;
+  margin-bottom: 2px;
+}
+
+.wrapper .debit-card {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin: 5px 0px 20px 0px;
+  padding: 10px 5px;
+  background-color: #353d50;
+  color: #fff;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all linear .4s;
+  transition: all linear .4s;
+}
+
+.wrapper .debit-card .card-inner-grid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.wrapper .debit-card .card-inner-grid .card-header .bank-details-container {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.wrapper .debit-card .card-inner-grid .card-header .value-container {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  letter-spacing: 2px;
+}
+
+.wrapper .debit-card .card-inner-grid .card-body .card-number {
+  letter-spacing: 5px;
+  text-align: left;
+}
+
+.wrapper .debit-card .card-inner-grid .card-footer {
+  text-align: left;
+}
+
+.wrapper .debit-card .card-inner-grid .card-footer .validity-info-container {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  margin-right: 20px;
+}
+
+.wrapper .debit-card .card-inner-grid .card-footer .cvc-container {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  margin-right: 20px;
+}
+
+.wrapper .debit-card .type-icon-container {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.wrapper .main-btn-container {
+  margin: 10px 0px;
+}
+
+.wrapper .main-btn-container .main-btn {
+  width: 100%;
+}
+
+.wrapper .details-container {
+  margin: 15px 0px;
+}
+
+.wrapper .details-container .details-container-inner-grid .details-grid {
+  padding: 12px 0px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.wrapper .details-container .details-container-inner-grid .details-grid .inner-grid {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrapper .details-container .details-container-inner-grid .details-grid .inner-grid .key {
+  color: #8a8a8a;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-size: 14px;
+}
+
+.wrapper .details-container .details-container-inner-grid .details-grid .inner-grid .value {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-size: 14px;
+}
+
+.wrapper .details-container .details-container-inner-grid .details-grid .inner-grid .custom-link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=styles.css.map */
